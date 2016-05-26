@@ -1,2 +1,26 @@
 # reactjs-app
 use reactjs redux react-redux redux-actions redux-reselect redux-thunk technology and es2015 syntax build complex application selekton.
+
+
+### directory structure
+
+        |-dist
+        |-src
+            |-components # UI component
+                |-About.js
+                |-Home.js
+                |-Intro.js
+                |-Index.js # collect all UI component
+            |-config
+                |-default.js # default configure settings for webpack
+                |-dev.js    # development environment configure settings for webpack
+            |-index.js # Application entry
+            |-reducers.js # redux reducers settings
+            |-root.js # Application RootDOM
+            |-routes.js # Application all routes configure settings
+            |-store.js # Application store (redux state)
+
+
+### Data flow
+
+* come soon.
