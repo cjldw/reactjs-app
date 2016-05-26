@@ -7,14 +7,14 @@ module.exports = {
     entry:[
         "webpack-dev-server/client?" + defaultConfig.host + ":" + defaultConfig.port,
         'webpack/hot/only-dev-server',
-        "./src/index.js"
+        path.join(__dirname, "/../index.js")
     ],
     output: {
-        path: "dist",
+        path: path.join(__dirname, "/../../dist"),
         filename: "built.js"
     },
     cache: true,
-    devtool: 'eval-source-map',
+    devtool: 'eval',
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoErrorsPlugin()
@@ -24,7 +24,7 @@ module.exports = {
             test: /\.(js|jsx)$/,
             loader: "react-hot!babel-loader",
             include: path.join(__dirname,"/../"),
-            exclude: "node_modules"
+            exclude: "/node_modules"
         }]
     }
 }

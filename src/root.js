@@ -4,12 +4,11 @@ import {Router, hashHistory} from "react-router";
 import Store from "./store";
 import Routes from "./routes";
 
-
 export default class Root extends React.Component {
     render() {
-        let store = Store.getStoreWithMiddleware();
-        <Provider store={store}>
-            <Router routes={Routes}/>
+        let store = Store();
+        return <Provider store={store}>
+            <Router history={hashHistory} routes={Routes}/>
         </Provider>
     }
 }
