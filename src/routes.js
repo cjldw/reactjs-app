@@ -1,4 +1,4 @@
-import * as Components from "./components/Index";
+import * as Components from "./components/_modules";
 export default {
     component: 'div',
     childRoutes: [{

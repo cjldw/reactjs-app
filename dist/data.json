@@ -1,0 +1,44 @@
+{
+  "name": "react-huge-app",
+  "version": "1.0.0",
+  "description": "use reactjs redux react-redux redux-actions redux-thunk redux-reselect build huge application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"enjoy it\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvimlo/reactjs-app.git"
+  },
+  "keywords": [
+    "reactjs",
+    "redux",
+    "react-redux"
+  ],
+  "author": "arvim.lo <bigpao.lo@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvimlo/reactjs-app/issues"
+  },
+  "homepage": "https://github.com/arvimlo/reactjs-app#readme",
+  "dependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-hot-loader": "^1.3.0",
+    "react-logger": "^1.0.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "redux": "^3.5.2",
+    "redux-actions": "^0.9.1",
+    "redux-thunk": "^2.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

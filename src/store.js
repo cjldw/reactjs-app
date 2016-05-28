@@ -1,6 +1,6 @@
 import thunkMiddleware from "redux-thunk";
 import loggerMiddleware from "redux-logger";
-import {createStore, applyMiddleware, combileReducers} from "redux";
+import {createStore, applyMiddleware, combineReducers} from "redux";
 import Reducers from "./reducers";
 
 export default function getStoreWithMiddleware() {

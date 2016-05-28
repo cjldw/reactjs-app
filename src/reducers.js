@@ -1,4 +1,4 @@
+import Reducers from "./components/_reducers";
+console.log('uuuu', Reducers)
 
-export default function todos(state=[], action){
-    return state;
-}
+export default Reducers;
