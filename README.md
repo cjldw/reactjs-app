@@ -2,7 +2,7 @@
 use reactjs redux react-redux redux-actions redux-reselect redux-thunk technology and es2015 syntax build complex application selekton.
 
 
-### directory structure
+### Directoy Structure
 
         |-dist
         |-src
@@ -23,4 +23,5 @@ use reactjs redux react-redux redux-actions redux-reselect redux-thunk technolog
 
 ### Data flow
 
-* come soon.
+* see `components/about/{actions, reducers}`. **it is not a good implement**
+
